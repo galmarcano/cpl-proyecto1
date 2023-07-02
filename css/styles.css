@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Lato:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    color: #0f0f0f;
+    font-size: 18px;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-header {
+    width: 100%;
+    max-width: 80px;
+}
+
+#foto-perfil {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+
+#contenedor-foto-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+#inicio,
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 5px;
+}
+
+#inicio {
+    margin-top: 100px;
+}
+
+#contacto {
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 40px;
+    padding: 10px;
+    background-color: #af599e;
+    color: #fbfbfb;
+    font-size: 20px;
+    border: none;
+}
+
+img {
+    width: 100%;
+    max-width: 40px;
+}
+
+#contenedor-contacto {
+    background-color: rgb(175, 89, 158, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contenedor-img-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #af599e;
+    color: #fbfbfb;
+    height: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: x-large;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+}
